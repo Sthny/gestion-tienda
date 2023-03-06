@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/20104/AndroidStudioProjects/HnosAunonSL/app/src/main/res/drawable-v21/ic_menu_camera.xml" value="0.3635" />
+        <entry key="..\:/Users/20104/AndroidStudioProjects/HnosAunonSL/app/src/main/res/drawable-v21/ic_menu_gallery.xml" value="0.3635" />
+        <entry key="..\:/Users/20104/AndroidStudioProjects/HnosAunonSL/app/src/main/res/drawable-v21/ic_menu_slideshow.xml" value="0.3635" />
+        <entry key="..\:/Users/20104/AndroidStudioProjects/HnosAunonSL/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.3635" />
+        <entry key="..\:/Users/20104/AndroidStudioProjects/HnosAunonSL/app/src/main/res/drawable/ic_baseline_delete_24.xml" value="0.2075" />
+        <entry key="..\:/Users/20104/AndroidStudioProjects/HnosAunonSL/app/src/main/res/drawable/ic_launcher_background.xml" value="0.3635" />
+        <entry key="..\:/Users/20104/AndroidStudioProjects/HnosAunonSL/app/src/main/res/drawable/logo.xml" value="0.2985" />
+        <entry key="..\:/Users/20104/AndroidStudioProjects/HnosAunonSL/app/src/main/res/drawable/side_nav_bar.xml" value="0.3635" />
+        <entry key="..\:/Users/20104/AndroidStudioProjects/HnosAunonSL/app/src/main/res/layout/activity_activity2_productos.xml" value="0.3625" />
+        <entry key="..\:/Users/20104/AndroidStudioProjects/HnosAunonSL/app/src/main/res/layout/activity_first_menu.xml" value="0.3625" />
+        <entry key="..\:/Users/20104/AndroidStudioProjects/HnosAunonSL/app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="..\:/Users/20104/AndroidStudioProjects/HnosAunonSL/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/20104/AndroidStudioProjects/HnosAunonSL/app/src/main/res/layout/activity_main_productos.xml" value="0.3625" />
+        <entry key="..\:/Users/20104/AndroidStudioProjects/HnosAunonSL/app/src/main/res/layout/activity_navigation_drawer_hnos.xml" value="0.3625" />
+        <entry key="..\:/Users/20104/AndroidStudioProjects/HnosAunonSL/app/src/main/res/layout/activity_pedidos.xml" value="0.3625" />
+        <entry key="..\:/Users/20104/AndroidStudioProjects/HnosAunonSL/app/src/main/res/layout/activity_productos.xml" value="0.3625" />
+        <entry key="..\:/Users/20104/AndroidStudioProjects/HnosAunonSL/app/src/main/res/layout/app_bar_navigation_drawer_hnos.xml" value="0.3625" />
+        <entry key="..\:/Users/20104/AndroidStudioProjects/HnosAunonSL/app/src/main/res/layout/content_navigation_drawer_hnos.xml" value="0.3625" />
+        <entry key="..\:/Users/20104/AndroidStudioProjects/HnosAunonSL/app/src/main/res/layout/fragment_crear_producto.xml" value="0.25" />
+        <entry key="..\:/Users/20104/AndroidStudioProjects/HnosAunonSL/app/src/main/res/layout/fragment_crear_proveedor.xml" value="0.22" />
+        <entry key="..\:/Users/20104/AndroidStudioProjects/HnosAunonSL/app/src/main/res/layout/fragment_gallery.xml" value="0.3625" />
+        <entry key="..\:/Users/20104/AndroidStudioProjects/HnosAunonSL/app/src/main/res/layout/fragment_home.xml" value="0.3625" />
+        <entry key="..\:/Users/20104/AndroidStudioProjects/HnosAunonSL/app/src/main/res/layout/fragment_slideshow.xml" value="0.3625" />
+        <entry key="..\:/Users/20104/AndroidStudioProjects/HnosAunonSL/app/src/main/res/layout/ic_launcher_background.xml" value="0.17572463768115942" />
+        <entry key="..\:/Users/20104/AndroidStudioProjects/HnosAunonSL/app/src/main/res/layout/nav_header_navigation_drawer_hnos.xml" value="0.3625" />
+        <entry key="..\:/Users/20104/AndroidStudioProjects/HnosAunonSL/app/src/main/res/layout/view_producto_single.xml" value="0.5" />
+        <entry key="..\:/Users/20104/AndroidStudioProjects/HnosAunonSL/app/src/main/res/layout/view_proveedor_single.xml" value="0.22191011235955055" />
+        <entry key="..\:/Users/20104/AndroidStudioProjects/HnosAunonSL/app/src/main/res/menu/activity_main_drawer.xml" value="0.3625" />
+        <entry key="..\:/Users/20104/AndroidStudioProjects/HnosAunonSL/app/src/main/res/menu/navigation_drawer_hnos.xml" value="0.3625" />
+        <entry key="..\:/Users/20104/AndroidStudioProjects/HnosAunonSL/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.3635" />
+        <entry key="..\:/Users/20104/AndroidStudioProjects/HnosAunonSL/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.3635" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
