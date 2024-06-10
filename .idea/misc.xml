@@ -7,7 +7,11 @@
         <entry key="..\:/Users/20104/AndroidStudioProjects/HnosAunonSL/app/src/main/res/drawable-v21/ic_menu_gallery.xml" value="0.3635" />
         <entry key="..\:/Users/20104/AndroidStudioProjects/HnosAunonSL/app/src/main/res/drawable-v21/ic_menu_slideshow.xml" value="0.3635" />
         <entry key="..\:/Users/20104/AndroidStudioProjects/HnosAunonSL/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.3635" />
+        <entry key="..\:/Users/20104/AndroidStudioProjects/HnosAunonSL/app/src/main/res/drawable/ic_baseline_content_paste_24.xml" value="0.2075" />
         <entry key="..\:/Users/20104/AndroidStudioProjects/HnosAunonSL/app/src/main/res/drawable/ic_baseline_delete_24.xml" value="0.2075" />
+        <entry key="..\:/Users/20104/AndroidStudioProjects/HnosAunonSL/app/src/main/res/drawable/ic_baseline_edit_24.xml" value="0.2075" />
+        <entry key="..\:/Users/20104/AndroidStudioProjects/HnosAunonSL/app/src/main/res/drawable/ic_baseline_people_alt_24.xml" value="0.2075" />
+        <entry key="..\:/Users/20104/AndroidStudioProjects/HnosAunonSL/app/src/main/res/drawable/ic_baseline_shopping_cart_24.xml" value="0.2075" />
         <entry key="..\:/Users/20104/AndroidStudioProjects/HnosAunonSL/app/src/main/res/drawable/ic_launcher_background.xml" value="0.3635" />
         <entry key="..\:/Users/20104/AndroidStudioProjects/HnosAunonSL/app/src/main/res/drawable/logo.xml" value="0.2985" />
         <entry key="..\:/Users/20104/AndroidStudioProjects/HnosAunonSL/app/src/main/res/drawable/side_nav_bar.xml" value="0.3635" />
@@ -17,18 +21,27 @@
         <entry key="..\:/Users/20104/AndroidStudioProjects/HnosAunonSL/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/Users/20104/AndroidStudioProjects/HnosAunonSL/app/src/main/res/layout/activity_main_productos.xml" value="0.3625" />
         <entry key="..\:/Users/20104/AndroidStudioProjects/HnosAunonSL/app/src/main/res/layout/activity_navigation_drawer_hnos.xml" value="0.3625" />
-        <entry key="..\:/Users/20104/AndroidStudioProjects/HnosAunonSL/app/src/main/res/layout/activity_pedidos.xml" value="0.3625" />
-        <entry key="..\:/Users/20104/AndroidStudioProjects/HnosAunonSL/app/src/main/res/layout/activity_productos.xml" value="0.3625" />
+        <entry key="..\:/Users/20104/AndroidStudioProjects/HnosAunonSL/app/src/main/res/layout/activity_pedidos.xml" value="0.22" />
+        <entry key="..\:/Users/20104/AndroidStudioProjects/HnosAunonSL/app/src/main/res/layout/activity_productos.xml" value="0.19437340153452684" />
+        <entry key="..\:/Users/20104/AndroidStudioProjects/HnosAunonSL/app/src/main/res/layout/activity_productos_seleccionar.xml" value="0.2" />
+        <entry key="..\:/Users/20104/AndroidStudioProjects/HnosAunonSL/app/src/main/res/layout/activity_proveedores.xml" value="0.2" />
+        <entry key="..\:/Users/20104/AndroidStudioProjects/HnosAunonSL/app/src/main/res/layout/activity_proveedores_seleccionar.xml" value="0.1644021739130435" />
+        <entry key="..\:/Users/20104/AndroidStudioProjects/HnosAunonSL/app/src/main/res/layout/activity_prueba_subconsulta_productoenpedidos.xml" value="0.2" />
         <entry key="..\:/Users/20104/AndroidStudioProjects/HnosAunonSL/app/src/main/res/layout/app_bar_navigation_drawer_hnos.xml" value="0.3625" />
         <entry key="..\:/Users/20104/AndroidStudioProjects/HnosAunonSL/app/src/main/res/layout/content_navigation_drawer_hnos.xml" value="0.3625" />
+        <entry key="..\:/Users/20104/AndroidStudioProjects/HnosAunonSL/app/src/main/res/layout/fragment_crear_pedidos.xml" value="0.25" />
         <entry key="..\:/Users/20104/AndroidStudioProjects/HnosAunonSL/app/src/main/res/layout/fragment_crear_producto.xml" value="0.25" />
         <entry key="..\:/Users/20104/AndroidStudioProjects/HnosAunonSL/app/src/main/res/layout/fragment_crear_proveedor.xml" value="0.22" />
         <entry key="..\:/Users/20104/AndroidStudioProjects/HnosAunonSL/app/src/main/res/layout/fragment_gallery.xml" value="0.3625" />
         <entry key="..\:/Users/20104/AndroidStudioProjects/HnosAunonSL/app/src/main/res/layout/fragment_home.xml" value="0.3625" />
+        <entry key="..\:/Users/20104/AndroidStudioProjects/HnosAunonSL/app/src/main/res/layout/fragment_producto.xml" value="0.2" />
         <entry key="..\:/Users/20104/AndroidStudioProjects/HnosAunonSL/app/src/main/res/layout/fragment_slideshow.xml" value="0.3625" />
         <entry key="..\:/Users/20104/AndroidStudioProjects/HnosAunonSL/app/src/main/res/layout/ic_launcher_background.xml" value="0.17572463768115942" />
         <entry key="..\:/Users/20104/AndroidStudioProjects/HnosAunonSL/app/src/main/res/layout/nav_header_navigation_drawer_hnos.xml" value="0.3625" />
+        <entry key="..\:/Users/20104/AndroidStudioProjects/HnosAunonSL/app/src/main/res/layout/view_pedido_single.xml" value="0.25" />
         <entry key="..\:/Users/20104/AndroidStudioProjects/HnosAunonSL/app/src/main/res/layout/view_producto_single.xml" value="0.5" />
+        <entry key="..\:/Users/20104/AndroidStudioProjects/HnosAunonSL/app/src/main/res/layout/view_producto_single_sel.xml" value="0.33" />
+        <entry key="..\:/Users/20104/AndroidStudioProjects/HnosAunonSL/app/src/main/res/layout/view_producto_single_seleccionar.xml" value="0.2" />
         <entry key="..\:/Users/20104/AndroidStudioProjects/HnosAunonSL/app/src/main/res/layout/view_proveedor_single.xml" value="0.22191011235955055" />
         <entry key="..\:/Users/20104/AndroidStudioProjects/HnosAunonSL/app/src/main/res/menu/activity_main_drawer.xml" value="0.3625" />
         <entry key="..\:/Users/20104/AndroidStudioProjects/HnosAunonSL/app/src/main/res/menu/navigation_drawer_hnos.xml" value="0.3625" />

@@ -1,10 +1,15 @@
 package com.example.hnosaunonsl;
 
+import androidx.activity.result.ActivityResultLauncher;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.app.Activity;
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
+import android.provider.MediaStore;
 import android.widget.Button;
 
 import com.example.hnosaunonsl.adaptador.ProductoAdapter;
@@ -33,7 +38,7 @@ public class ActivityProductos extends AppCompatActivity {
 
         FirestoreRecyclerOptions<Producto> firestoreRecyclerOptions =
                 new FirestoreRecyclerOptions.Builder<Producto>().setQuery(query, Producto.class).build();
-        mAdapterProdu = new ProductoAdapter(firestoreRecyclerOptions, this);
+        mAdapterProdu = new ProductoAdapter(firestoreRecyclerOptions, this, getSupportFragmentManager());
         mAdapterProdu.notifyDataSetChanged();
         mRecyclerProdu.setAdapter(mAdapterProdu);
 
@@ -43,6 +48,7 @@ public class ActivityProductos extends AppCompatActivity {
             CrearProductoFragment fmprodu = new CrearProductoFragment();
             fmprodu.show(getSupportFragmentManager(), "Navegar a fragment");
         });
+
     }
 
     protected void onStart() {

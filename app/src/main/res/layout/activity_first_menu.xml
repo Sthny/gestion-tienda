@@ -13,17 +13,18 @@
         android:contentDescription="@string/app_name"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.578"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.148"
+        app:layout_constraintVertical_bias="0.126"
         app:srcCompat="@drawable/logo1" />
 
     <TextView
         android:id="@+id/m_proveedores"
-        android:layout_width="160dp"
-        android:layout_height="23dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:drawableRight="@drawable/ic_baseline_people_alt_24"
+        android:drawablePadding="10dp"
         android:text="@string/menu_home"
         android:textSize="20sp"
         android:textStyle="bold"
@@ -31,36 +32,39 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.56" />
+        app:layout_constraintVertical_bias="0.576" />
 
     <TextView
         android:id="@+id/m_productos"
-        android:layout_width="160dp"
-        android:layout_height="23dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
         android:drawableRight="@drawable/ic_baseline_content_paste_24"
+        android:drawablePadding="10dp"
         android:text="@string/menu_productos"
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintHorizontal_bias="0.461"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.651" />
+        app:layout_constraintTop_toBottomOf="@+id/m_proveedores"
+        app:layout_constraintVertical_bias="0.120" />
 
     <TextView
         android:id="@+id/m_pedidos"
-        android:layout_width="160dp"
-        android:layout_height="23dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:drawableRight="@drawable/ic_baseline_shopping_cart_24"
+        android:drawablePadding="10dp"
         android:text="@string/menu_pedidos"
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.432"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.737" />
+        app:layout_constraintTop_toBottomOf="@+id/m_productos"
+        app:layout_constraintVertical_bias="0.240" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

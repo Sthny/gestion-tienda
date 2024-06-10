@@ -3,12 +3,22 @@
     //principal
     <string name="b_agregar">+</string>
     <string name="nombre">Nombre</string>
-    <string name="cif">CIF</string>
+    <string name="cif">NIF</string>
     <string name="correo">Correo</string>
+
     <string name="precio">Precio</string>
     <string name="caducidad">Fecha Caducidad</string>
+    <string name="preKG">€/Kg</string>
+    <string name="agref">Agregar foto</string>
+    <string name="borrf">Borrar foto</string>
+
+    <string name="npedido">Nº de Pedido</string>
+    <string name="fecha">Fecha de realización</string>
+    <string name="cantidad">Cantidad</string>
 
     <string name="menu_home">Proveedores</string>
     <string name="menu_productos">Productos</string>
     <string name="menu_pedidos">Pedidos</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

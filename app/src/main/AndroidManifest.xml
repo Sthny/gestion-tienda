@@ -16,6 +16,10 @@
             android:name=".ActivityProductos"
             android:exported="false" />
         <activity
+            android:name=".ActivityProductosSELECCIONAR"
+            android:exported="false" />
+        <activity
+            android:theme="@style/Theme.Design.Light.NoActionBar"
             android:name=".FirstMenu"
             android:exported="true">
             <intent-filter>
@@ -25,7 +29,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".MainActivity"
+            android:name=".ActivityProveedores"
             android:exported="false" />
     </application>
 

@@ -3,13 +3,13 @@ package com.example.hnosaunonsl.modelo;
 import java.util.Date;
 
 public class Producto {
-    String nombre,precio,caducidad;
-
+    String nombre,caducidad;
+    Double precio;
 
     public Producto() {
     }
 
-    public Producto(String nombre, String precio, String caducidad) {
+    public Producto(String nombre, Double precio, String caducidad) {
         this.nombre = nombre;
         this.precio = precio;
         this.caducidad = caducidad;
@@ -23,11 +23,11 @@ public class Producto {
         this.nombre = nombre;
     }
 
-    public String getPrecio() {
+    public Double getPrecio() {
         return precio;
     }
 
-    public void setPrecio(String precio) {
+    public void setPrecio(Double precio) {
         this.precio = precio;
     }
 

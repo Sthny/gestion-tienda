@@ -2,11 +2,9 @@ package com.example.hnosaunonsl;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.ImageView;
 import android.widget.TextView;
 
 public class FirstMenu extends AppCompatActivity {
@@ -27,7 +25,7 @@ public class FirstMenu extends AppCompatActivity {
         bm_proveedores.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent abrirActivity = new Intent(FirstMenu.this, MainActivity.class);
+                Intent abrirActivity = new Intent(FirstMenu.this, ActivityProveedores.class);
                 startActivity(abrirActivity);
             }
         });

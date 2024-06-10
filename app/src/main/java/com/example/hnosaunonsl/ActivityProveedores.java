@@ -13,7 +13,7 @@ import com.firebase.ui.firestore.FirestoreRecyclerOptions;
 import com.google.firebase.firestore.FirebaseFirestore;
 import com.google.firebase.firestore.Query;
 
-public class MainActivity extends AppCompatActivity {
+public class ActivityProveedores extends AppCompatActivity { //ACTIVITY PROVEEDOR
     Button bagregar;
     RecyclerView mRecyclerProvee;
     ProveedorAdapter mAdapterProvee;
@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_proveedores);
         this.setTitle("PROVEEDORES");
 
         //IMPLEMENTADO EL RECYCLEVIEW
@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
 
         FirestoreRecyclerOptions<Proveedor> firestoreRecyclerOptions =
                 new FirestoreRecyclerOptions.Builder<Proveedor>().setQuery(query,Proveedor.class).build();
-       mAdapterProvee = new ProveedorAdapter(firestoreRecyclerOptions, this);
+       mAdapterProvee = new ProveedorAdapter(firestoreRecyclerOptions, this, getSupportFragmentManager());
         mAdapterProvee.notifyDataSetChanged();
         mRecyclerProvee.setAdapter(mAdapterProvee);
 

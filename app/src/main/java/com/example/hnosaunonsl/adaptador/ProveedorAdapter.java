@@ -1,6 +1,7 @@
 package com.example.hnosaunonsl.adaptador;
 
 import android.app.Activity;
+import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -9,8 +10,10 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
+import androidx.fragment.app.FragmentManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.example.hnosaunonsl.CrearProveedorFragment;
 import com.example.hnosaunonsl.R;
 import com.firebase.ui.firestore.FirestoreRecyclerAdapter;
 import com.firebase.ui.firestore.FirestoreRecyclerOptions;
@@ -23,6 +26,7 @@ import com.google.firebase.firestore.FirebaseFirestore;
 public class ProveedorAdapter extends FirestoreRecyclerAdapter<Proveedor, ProveedorAdapter.ViewHolder> {
     private FirebaseFirestore miFirestore = FirebaseFirestore.getInstance();
     Activity activity;
+    FragmentManager fm;
 
     /**
      * Create a new RecyclerView adapter that listens to a Firestore Query.  See {@link
@@ -30,9 +34,10 @@ public class ProveedorAdapter extends FirestoreRecyclerAdapter<Proveedor, Provee
      *
      * @param options
      */
-    public ProveedorAdapter(@NonNull FirestoreRecyclerOptions<Proveedor> options, Activity activity) {
+    public ProveedorAdapter(@NonNull FirestoreRecyclerOptions<Proveedor> options, Activity activity, FragmentManager fm) {
         super(options);
         this.activity = activity;
+        this.fm = fm;
     }
 
     @Override //LEYENDO DE LA BASE DE DATOS
@@ -50,10 +55,22 @@ public class ProveedorAdapter extends FirestoreRecyclerAdapter<Proveedor, Provee
                 deleteProveedor(id);
             }
         });
+
+        holder.b_editar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                CrearProveedorFragment proveeFragment = new CrearProveedorFragment();
+                Bundle bundle = new Bundle();
+                bundle.putString("id_proveedor", id);
+                proveeFragment.setArguments(bundle);
+                proveeFragment.show(fm, "open fragment");
+            }
+        });
     }
 
     @NonNull   //MOSTRANDO
-    @Override //conectando el adaptador con el view single
+    @Override //conectando el adaptador con el layout view single
     public ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.view_proveedor_single, parent, false);
         return new ViewHolder(view);
@@ -62,14 +79,15 @@ public class ProveedorAdapter extends FirestoreRecyclerAdapter<Proveedor, Provee
 
     public class ViewHolder extends RecyclerView.ViewHolder {
         TextView nombre, cif, correo;
-        ImageView b_eliminar;
+        ImageView b_eliminar, b_editar;
 
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
-            nombre = itemView.findViewById(R.id.no);
-            cif = itemView.findViewById(R.id.ci);
-            correo = itemView.findViewById(R.id.pre);
-            b_eliminar = itemView.findViewById(R.id.b_eli);
+            nombre = itemView.findViewById(R.id.name);
+            cif = itemView.findViewById(R.id.cif);
+            correo = itemView.findViewById(R.id.mail);
+            b_eliminar = itemView.findViewById(R.id.b_eli_Prov);
+            b_editar = itemView.findViewById(R.id.b_edi_Prov);
         }
     }
 
