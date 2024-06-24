@@ -1,0 +1,166 @@
+[
+    {
+        "merged": "C:\\Users\\20104\\AndroidStudioProjects\\GestionTienda\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxxhdpi_ic_baseline_people_alt_24.png.flat",
+        "source": "C:\\Users\\20104\\AndroidStudioProjects\\GestionTienda\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_baseline_people_alt_24.png"
+    },
+    {
+        "merged": "C:\\Users\\20104\\AndroidStudioProjects\\GestionTienda\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\20104\\AndroidStudioProjects\\GestionTienda\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\20104\\AndroidStudioProjects\\GestionTienda\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\20104\\AndroidStudioProjects\\GestionTienda\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\20104\\AndroidStudioProjects\\GestionTienda\\app\\build\\intermediates\\merged_res\\debug\\drawable-anydpi-v24_ic_baseline_people_alt_24.xml.flat",
+        "source": "C:\\Users\\20104\\AndroidStudioProjects\\GestionTienda\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_baseline_people_alt_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\20104\\AndroidStudioProjects\\GestionTienda\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_proveedores.xml.flat",
+        "source": "C:\\Users\\20104\\AndroidStudioProjects\\GestionTienda\\app\\src\\main\\res\\layout\\activity_proveedores.xml"
+    },
+    {
+        "merged": "C:\\Users\\20104\\AndroidStudioProjects\\GestionTienda\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\20104\\AndroidStudioProjects\\GestionTienda\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\20104\\AndroidStudioProjects\\GestionTienda\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\20104\\AndroidStudioProjects\\GestionTienda\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\20104\\AndroidStudioProjects\\GestionTienda\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\20104\\AndroidStudioProjects\\GestionTienda\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\20104\\AndroidStudioProjects\\GestionTienda\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\20104\\AndroidStudioProjects\\GestionTienda\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\20104\\AndroidStudioProjects\\GestionTienda\\app\\build\\intermediates\\merged_res\\debug\\layout_view_proveedor_single.xml.flat",
+        "source": "C:\\Users\\20104\\AndroidStudioProjects\\GestionTienda\\app\\src\\main\\res\\layout\\view_proveedor_single.xml"
+    },
+    {
+        "merged": "C:\\Users\\20104\\AndroidStudioProjects\\GestionTienda\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_crear_proveedor.xml.flat",
+        "source": "C:\\Users\\20104\\AndroidStudioProjects\\GestionTienda\\app\\src\\main\\res\\layout\\fragment_crear_proveedor.xml"
+    },
+    {
+        "merged": "C:\\Users\\20104\\AndroidStudioProjects\\GestionTienda\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\20104\\AndroidStudioProjects\\GestionTienda\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\20104\\AndroidStudioProjects\\GestionTienda\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_first_menu.xml.flat",
+        "source": "C:\\Users\\20104\\AndroidStudioProjects\\GestionTienda\\app\\src\\main\\res\\layout\\activity_first_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\20104\\AndroidStudioProjects\\GestionTienda\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_pedidos.xml.flat",
+        "source": "C:\\Users\\20104\\AndroidStudioProjects\\GestionTienda\\app\\src\\main\\res\\layout\\activity_pedidos.xml"
+    },
+    {
+        "merged": "C:\\Users\\20104\\AndroidStudioProjects\\GestionTienda\\app\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_ic_baseline_people_alt_24.png.flat",
+        "source": "C:\\Users\\20104\\AndroidStudioProjects\\GestionTienda\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_baseline_people_alt_24.png"
+    },
+    {
+        "merged": "C:\\Users\\20104\\AndroidStudioProjects\\GestionTienda\\app\\build\\intermediates\\merged_res\\debug\\layout_view_producto_single_sel.xml.flat",
+        "source": "C:\\Users\\20104\\AndroidStudioProjects\\GestionTienda\\app\\src\\main\\res\\layout\\view_producto_single_sel.xml"
+    },
+    {
+        "merged": "C:\\Users\\20104\\AndroidStudioProjects\\GestionTienda\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_shopping_cart_24.xml.flat",
+        "source": "C:\\Users\\20104\\AndroidStudioProjects\\GestionTienda\\app\\src\\main\\res\\drawable\\ic_baseline_shopping_cart_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\20104\\AndroidStudioProjects\\GestionTienda\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_ic_baseline_people_alt_24.png.flat",
+        "source": "C:\\Users\\20104\\AndroidStudioProjects\\GestionTienda\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_baseline_people_alt_24.png"
+    },
+    {
+        "merged": "C:\\Users\\20104\\AndroidStudioProjects\\GestionTienda\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\20104\\AndroidStudioProjects\\GestionTienda\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\20104\\AndroidStudioProjects\\GestionTienda\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_productos_seleccionar.xml.flat",
+        "source": "C:\\Users\\20104\\AndroidStudioProjects\\GestionTienda\\app\\src\\main\\res\\layout\\activity_productos_seleccionar.xml"
+    },
+    {
+        "merged": "C:\\Users\\20104\\AndroidStudioProjects\\GestionTienda\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\20104\\AndroidStudioProjects\\GestionTienda\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\20104\\AndroidStudioProjects\\GestionTienda\\app\\build\\intermediates\\merged_res\\debug\\drawable-v21_icono.png.flat",
+        "source": "C:\\Users\\20104\\AndroidStudioProjects\\GestionTienda\\app\\src\\main\\res\\drawable-v21\\icono.png"
+    },
+    {
+        "merged": "C:\\Users\\20104\\AndroidStudioProjects\\GestionTienda\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_productos.xml.flat",
+        "source": "C:\\Users\\20104\\AndroidStudioProjects\\GestionTienda\\app\\src\\main\\res\\layout\\activity_productos.xml"
+    },
+    {
+        "merged": "C:\\Users\\20104\\AndroidStudioProjects\\GestionTienda\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\20104\\AndroidStudioProjects\\GestionTienda\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\20104\\AndroidStudioProjects\\GestionTienda\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_ic_baseline_people_alt_24.png.flat",
+        "source": "C:\\Users\\20104\\AndroidStudioProjects\\GestionTienda\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_baseline_people_alt_24.png"
+    },
+    {
+        "merged": "C:\\Users\\20104\\AndroidStudioProjects\\GestionTienda\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\20104\\AndroidStudioProjects\\GestionTienda\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\20104\\AndroidStudioProjects\\GestionTienda\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_crear_producto.xml.flat",
+        "source": "C:\\Users\\20104\\AndroidStudioProjects\\GestionTienda\\app\\src\\main\\res\\layout\\fragment_crear_producto.xml"
+    },
+    {
+        "merged": "C:\\Users\\20104\\AndroidStudioProjects\\GestionTienda\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\20104\\AndroidStudioProjects\\GestionTienda\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\20104\\AndroidStudioProjects\\GestionTienda\\app\\build\\intermediates\\merged_res\\debug\\layout_view_producto_single.xml.flat",
+        "source": "C:\\Users\\20104\\AndroidStudioProjects\\GestionTienda\\app\\src\\main\\res\\layout\\view_producto_single.xml"
+    },
+    {
+        "merged": "C:\\Users\\20104\\AndroidStudioProjects\\GestionTienda\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_edit_24.xml.flat",
+        "source": "C:\\Users\\20104\\AndroidStudioProjects\\GestionTienda\\app\\src\\main\\res\\drawable\\ic_baseline_edit_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\20104\\AndroidStudioProjects\\GestionTienda\\app\\build\\intermediates\\merged_res\\debug\\drawable-ldpi_ic_baseline_people_alt_24.png.flat",
+        "source": "C:\\Users\\20104\\AndroidStudioProjects\\GestionTienda\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_baseline_people_alt_24.png"
+    },
+    {
+        "merged": "C:\\Users\\20104\\AndroidStudioProjects\\GestionTienda\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_ic_baseline_people_alt_24.png.flat",
+        "source": "C:\\Users\\20104\\AndroidStudioProjects\\GestionTienda\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_baseline_people_alt_24.png"
+    },
+    {
+        "merged": "C:\\Users\\20104\\AndroidStudioProjects\\GestionTienda\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\20104\\AndroidStudioProjects\\GestionTienda\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\20104\\AndroidStudioProjects\\GestionTienda\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\20104\\AndroidStudioProjects\\GestionTienda\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\20104\\AndroidStudioProjects\\GestionTienda\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_delete_24.xml.flat",
+        "source": "C:\\Users\\20104\\AndroidStudioProjects\\GestionTienda\\app\\src\\main\\res\\drawable\\ic_baseline_delete_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\20104\\AndroidStudioProjects\\GestionTienda\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\20104\\AndroidStudioProjects\\GestionTienda\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\20104\\AndroidStudioProjects\\GestionTienda\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_crear_pedidos.xml.flat",
+        "source": "C:\\Users\\20104\\AndroidStudioProjects\\GestionTienda\\app\\src\\main\\res\\layout\\fragment_crear_pedidos.xml"
+    },
+    {
+        "merged": "C:\\Users\\20104\\AndroidStudioProjects\\GestionTienda\\app\\build\\intermediates\\merged_res\\debug\\layout_view_pedido_single.xml.flat",
+        "source": "C:\\Users\\20104\\AndroidStudioProjects\\GestionTienda\\app\\src\\main\\res\\layout\\view_pedido_single.xml"
+    },
+    {
+        "merged": "C:\\Users\\20104\\AndroidStudioProjects\\GestionTienda\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\20104\\AndroidStudioProjects\\GestionTienda\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\20104\\AndroidStudioProjects\\GestionTienda\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\20104\\AndroidStudioProjects\\GestionTienda\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\20104\\AndroidStudioProjects\\GestionTienda\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_content_paste_24.xml.flat",
+        "source": "C:\\Users\\20104\\AndroidStudioProjects\\GestionTienda\\app\\src\\main\\res\\drawable\\ic_baseline_content_paste_24.xml"
+    }
+]

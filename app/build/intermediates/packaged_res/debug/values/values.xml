@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <color name="black">#FF000000</color>
+    <color name="ic_launcher_background">#FFFFFF</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="white">#FFFFFFFF</color>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="nav_header_height">176dp</dimen>
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <string name="app_name">Gestion tienda</string>
+    <string name="b_agregar">+</string>
+    <string name="caducidad">Fecha Caducidad</string>
+    <string name="caducidad1">Fecha Caducidad:</string>
+    <string name="cantidad">Cantidad</string>
+    <string name="cif">NIF</string>
+    <string name="cif1">NIF:</string>
+    <string name="correo">Correo</string>
+    <string name="correo1">Correo:</string>
+    <string name="default_web_client_id" translatable="false">900363717420-sngfbmkdgr6cto2v528jnisa7d7l97oa.apps.googleusercontent.com</string>
+    <string name="fecha">Fecha de realización</string>
+    <string name="gcm_defaultSenderId" translatable="false">900363717420</string>
+    <string name="google_api_key" translatable="false">AIzaSyAEy-16_Jblsn6auOIsHrJhy5a9HRLX3KQ</string>
+    <string name="google_app_id" translatable="false">1:900363717420:android:f8735a28e7a11263723a89</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAEy-16_Jblsn6auOIsHrJhy5a9HRLX3KQ</string>
+    <string name="google_storage_bucket" translatable="false">hnosauno-1eff4.appspot.com</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="menu_home">Proveedores</string>
+    <string name="menu_pedidos">Pedidos</string>
+    <string name="menu_productos">Productos</string>
+    <string name="nombre">Nombre</string>
+    <string name="nombre1">Nombre:</string>
+    <string name="npedido">Nº de Pedido</string>
+    <string name="preKG">€/Kg</string>
+    <string name="precio">Precio</string>
+    <string name="precio1">Precio:</string>
+    <string name="project_id" translatable="false">hnosauno-1eff4</string>
+    <style name="Theme.HnosAunonSL" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" ns1:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+    <style name="Theme.HnosAunonSL.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+    <style name="Theme.HnosAunonSL.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="Theme.HnosAunonSL.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+</resources>

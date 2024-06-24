@@ -1,0 +1,50 @@
+[
+    {
+        "merged": "C:\\Users\\20104\\AndroidStudioProjects\\GestionTienda\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_crear_pedidos.xml",
+        "source": "C:\\Users\\20104\\AndroidStudioProjects\\GestionTienda\\app\\src\\main\\res\\layout\\fragment_crear_pedidos.xml"
+    },
+    {
+        "merged": "C:\\Users\\20104\\AndroidStudioProjects\\GestionTienda\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_first_menu.xml",
+        "source": "C:\\Users\\20104\\AndroidStudioProjects\\GestionTienda\\app\\src\\main\\res\\layout\\activity_first_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\20104\\AndroidStudioProjects\\GestionTienda\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_proveedores.xml",
+        "source": "C:\\Users\\20104\\AndroidStudioProjects\\GestionTienda\\app\\src\\main\\res\\layout\\activity_proveedores.xml"
+    },
+    {
+        "merged": "C:\\Users\\20104\\AndroidStudioProjects\\GestionTienda\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_crear_proveedor.xml",
+        "source": "C:\\Users\\20104\\AndroidStudioProjects\\GestionTienda\\app\\src\\main\\res\\layout\\fragment_crear_proveedor.xml"
+    },
+    {
+        "merged": "C:\\Users\\20104\\AndroidStudioProjects\\GestionTienda\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\view_proveedor_single.xml",
+        "source": "C:\\Users\\20104\\AndroidStudioProjects\\GestionTienda\\app\\src\\main\\res\\layout\\view_proveedor_single.xml"
+    },
+    {
+        "merged": "C:\\Users\\20104\\AndroidStudioProjects\\GestionTienda\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_productos.xml",
+        "source": "C:\\Users\\20104\\AndroidStudioProjects\\GestionTienda\\app\\src\\main\\res\\layout\\activity_productos.xml"
+    },
+    {
+        "merged": "C:\\Users\\20104\\AndroidStudioProjects\\GestionTienda\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\view_pedido_single.xml",
+        "source": "C:\\Users\\20104\\AndroidStudioProjects\\GestionTienda\\app\\src\\main\\res\\layout\\view_pedido_single.xml"
+    },
+    {
+        "merged": "C:\\Users\\20104\\AndroidStudioProjects\\GestionTienda\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_pedidos.xml",
+        "source": "C:\\Users\\20104\\AndroidStudioProjects\\GestionTienda\\app\\src\\main\\res\\layout\\activity_pedidos.xml"
+    },
+    {
+        "merged": "C:\\Users\\20104\\AndroidStudioProjects\\GestionTienda\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_crear_producto.xml",
+        "source": "C:\\Users\\20104\\AndroidStudioProjects\\GestionTienda\\app\\src\\main\\res\\layout\\fragment_crear_producto.xml"
+    },
+    {
+        "merged": "C:\\Users\\20104\\AndroidStudioProjects\\GestionTienda\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\view_producto_single_sel.xml",
+        "source": "C:\\Users\\20104\\AndroidStudioProjects\\GestionTienda\\app\\src\\main\\res\\layout\\view_producto_single_sel.xml"
+    },
+    {
+        "merged": "C:\\Users\\20104\\AndroidStudioProjects\\GestionTienda\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_productos_seleccionar.xml",
+        "source": "C:\\Users\\20104\\AndroidStudioProjects\\GestionTienda\\app\\src\\main\\res\\layout\\activity_productos_seleccionar.xml"
+    },
+    {
+        "merged": "C:\\Users\\20104\\AndroidStudioProjects\\GestionTienda\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\view_producto_single.xml",
+        "source": "C:\\Users\\20104\\AndroidStudioProjects\\GestionTienda\\app\\src\\main\\res\\layout\\view_producto_single.xml"
+    }
+]
