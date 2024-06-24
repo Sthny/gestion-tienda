@@ -1,10 +1,7 @@
-package com.example.hnosaunonsl.adaptador;
-import static androidx.annotation.InspectableProperty.ValueType.RESOURCE_ID;
+package com.example.gestiontienda.adaptador;
 
 import android.app.Activity;
-import android.content.Intent;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -14,19 +11,13 @@ import androidx.annotation.NonNull;
 import androidx.fragment.app.FragmentManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.hnosaunonsl.CrearPedidoFragment;
-import com.example.hnosaunonsl.R;
+import com.example.gestiontienda.CrearPedidoFragment;
+import com.example.gestiontienda.R;
 import com.firebase.ui.firestore.FirestoreRecyclerAdapter;
 import com.firebase.ui.firestore.FirestoreRecyclerOptions;
-import com.example.hnosaunonsl.modelo.Producto;
-import com.google.android.gms.tasks.OnCompleteListener;
-import com.google.android.gms.tasks.OnFailureListener;
-import com.google.android.gms.tasks.OnSuccessListener;
-import com.google.android.gms.tasks.Task;
-import com.google.firebase.firestore.DocumentReference;
+import com.example.gestiontienda.modelo.Producto;
 import com.google.firebase.firestore.DocumentSnapshot;
 import com.google.firebase.firestore.FirebaseFirestore;
-import com.google.firebase.firestore.Source;
 
 import java.text.DecimalFormat;
 

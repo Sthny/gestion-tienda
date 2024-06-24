@@ -1,4 +1,4 @@
-package com.example.hnosaunonsl;
+package com.example.gestiontienda;
 
 
 import static android.content.ContentValues.TAG;

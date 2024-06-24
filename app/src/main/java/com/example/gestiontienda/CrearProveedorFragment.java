@@ -1,4 +1,4 @@
-package com.example.hnosaunonsl;
+package com.example.gestiontienda;
 
 import static android.content.ContentValues.TAG;
 
@@ -6,7 +6,6 @@ import android.os.Bundle;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.DialogFragment;
-import androidx.fragment.app.Fragment;
 
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -24,7 +23,6 @@ import com.google.firebase.firestore.FirebaseFirestore;
 
 import java.util.HashMap;
 import java.util.Map;
-import java.util.regex.Pattern;
 
 public class CrearProveedorFragment extends DialogFragment {
     String id_proveedor;

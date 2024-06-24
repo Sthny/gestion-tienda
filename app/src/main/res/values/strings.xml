@@ -1,16 +1,19 @@
 <resources>
-    <string name="app_name">HnosAunonSL</string>
+    <string name="app_name">Gestion tienda</string>
     //principal
     <string name="b_agregar">+</string>
     <string name="nombre">Nombre</string>
     <string name="cif">NIF</string>
     <string name="correo">Correo</string>
+    <string name="nombre1">Nombre:</string>
+    <string name="cif1">NIF:</string>
+    <string name="correo1">Correo:</string>
 
     <string name="precio">Precio</string>
     <string name="caducidad">Fecha Caducidad</string>
+    <string name="precio1">Precio:</string>
+    <string name="caducidad1">Fecha Caducidad:</string>
     <string name="preKG">€/Kg</string>
-    <string name="agref">Agregar foto</string>
-    <string name="borrf">Borrar foto</string>
 
     <string name="npedido">Nº de Pedido</string>
     <string name="fecha">Fecha de realización</string>

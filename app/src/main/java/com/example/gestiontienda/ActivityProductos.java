@@ -1,19 +1,14 @@
-package com.example.hnosaunonsl;
+package com.example.gestiontienda;
 
-import androidx.activity.result.ActivityResultLauncher;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import android.app.Activity;
-import android.content.Intent;
-import android.net.Uri;
 import android.os.Bundle;
-import android.provider.MediaStore;
 import android.widget.Button;
 
-import com.example.hnosaunonsl.adaptador.ProductoAdapter;
-import com.example.hnosaunonsl.modelo.Producto;
+import com.example.gestiontienda.adaptador.ProductoAdapter;
+import com.example.gestiontienda.modelo.Producto;
 import com.firebase.ui.firestore.FirestoreRecyclerOptions;
 import com.google.firebase.firestore.FirebaseFirestore;
 import com.google.firebase.firestore.Query;

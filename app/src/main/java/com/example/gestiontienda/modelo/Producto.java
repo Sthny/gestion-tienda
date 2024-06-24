@@ -1,6 +1,4 @@
-package com.example.hnosaunonsl.modelo;
-
-import java.util.Date;
+package com.example.gestiontienda.modelo;
 
 public class Producto {
     String nombre,caducidad;

@@ -1,4 +1,4 @@
-package com.example.hnosaunonsl;
+package com.example.gestiontienda;
 
 import android.content.Context;
 

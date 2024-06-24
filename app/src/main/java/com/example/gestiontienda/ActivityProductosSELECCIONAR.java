@@ -1,12 +1,12 @@
-package com.example.hnosaunonsl;
+package com.example.gestiontienda;
 
 import android.os.Bundle;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.hnosaunonsl.adaptador.ProductoAdapterSEL;
-import com.example.hnosaunonsl.modelo.Producto;
+import com.example.gestiontienda.adaptador.ProductoAdapterSEL;
+import com.example.gestiontienda.modelo.Producto;
 import com.firebase.ui.firestore.FirestoreRecyclerOptions;
 import com.google.firebase.firestore.FirebaseFirestore;
 import com.google.firebase.firestore.Query;

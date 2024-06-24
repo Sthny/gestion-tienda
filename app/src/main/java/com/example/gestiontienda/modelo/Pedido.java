@@ -1,6 +1,4 @@
-package com.example.hnosaunonsl.modelo;
-
-import java.util.Date;
+package com.example.gestiontienda.modelo;
 
 public class Pedido {
     String fecha, productoagregado, proveedoragregado;

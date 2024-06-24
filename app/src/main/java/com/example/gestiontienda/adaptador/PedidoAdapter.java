@@ -1,4 +1,4 @@
-package com.example.hnosaunonsl.adaptador;
+package com.example.gestiontienda.adaptador;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -13,18 +13,15 @@ import androidx.annotation.NonNull;
 import androidx.fragment.app.FragmentManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.hnosaunonsl.CrearPedidoFragment;
-import com.example.hnosaunonsl.R;
+import com.example.gestiontienda.CrearPedidoFragment;
+import com.example.gestiontienda.R;
 import com.firebase.ui.firestore.FirestoreRecyclerAdapter;
 import com.firebase.ui.firestore.FirestoreRecyclerOptions;
-import com.example.hnosaunonsl.modelo.Pedido;
+import com.example.gestiontienda.modelo.Pedido;
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.firebase.firestore.DocumentSnapshot;
 import com.google.firebase.firestore.FirebaseFirestore;
-
-import java.text.DecimalFormat;
-import java.text.NumberFormat;
 
 public class PedidoAdapter extends FirestoreRecyclerAdapter<Pedido, PedidoAdapter.ViewHolder> {
     private FirebaseFirestore miFirestore = FirebaseFirestore.getInstance();
@@ -93,7 +90,7 @@ public class PedidoAdapter extends FirestoreRecyclerAdapter<Pedido, PedidoAdapte
             fecha = itemView.findViewById(R.id.fe);
             cantidad = itemView.findViewById(R.id.can);
             productoagregado = itemView.findViewById(R.id.produ);
-            proveedoragregado = itemView.findViewById(R.id.prove);
+            //proveedoragregado = itemView.findViewById(R.id.prove);
             b_eliminar = itemView.findViewById(R.id.b_eli_pro);
             b_editar = itemView.findViewById(R.id.b_edi_Pe);
 

@@ -1,4 +1,4 @@
-package com.example.hnosaunonsl;
+package com.example.gestiontienda;
 
 import static android.content.ContentValues.TAG;
 
@@ -18,7 +18,6 @@ import android.widget.Toast;
 import androidx.annotation.NonNull;
 import androidx.fragment.app.DialogFragment;
 
-import com.example.hnosaunonsl.adaptador.ProductoAdapterSEL;
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.firebase.firestore.DocumentReference;

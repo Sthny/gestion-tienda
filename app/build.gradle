@@ -7,8 +7,8 @@ android {
     compileSdk 32
 
     defaultConfig {
-        applicationId "com.example.hnosaunonsl"
-        minSdk 20
+        applicationId "com.example.gestiontienda"
+        minSdk 21
         targetSdk 32
         versionCode 1
         versionName "1.0"

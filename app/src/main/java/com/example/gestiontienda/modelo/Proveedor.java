@@ -1,4 +1,4 @@
-package com.example.hnosaunonsl.modelo;
+package com.example.gestiontienda.modelo;
 
 public class Proveedor {
     String  cif, correo, nombre;

@@ -1,4 +1,4 @@
-package com.example.hnosaunonsl.adaptador;
+package com.example.gestiontienda.adaptador;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -13,46 +13,47 @@ import androidx.annotation.NonNull;
 import androidx.fragment.app.FragmentManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.hnosaunonsl.CrearProveedorFragment;
-import com.example.hnosaunonsl.R;
+import com.example.gestiontienda.CrearProductoFragment;
+import com.example.gestiontienda.R;
 import com.firebase.ui.firestore.FirestoreRecyclerAdapter;
 import com.firebase.ui.firestore.FirestoreRecyclerOptions;
-import com.example.hnosaunonsl.modelo.Proveedor;
+import com.example.gestiontienda.modelo.Producto;
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.firebase.firestore.DocumentSnapshot;
 import com.google.firebase.firestore.FirebaseFirestore;
 
-public class ProveedorAdapter extends FirestoreRecyclerAdapter<Proveedor, ProveedorAdapter.ViewHolder> {
+import java.text.DecimalFormat;
+
+public class ProductoAdapter extends FirestoreRecyclerAdapter<Producto, ProductoAdapter.ViewHolder> {
     private FirebaseFirestore miFirestore = FirebaseFirestore.getInstance();
     Activity activity;
     FragmentManager fm;
-
     /**
      * Create a new RecyclerView adapter that listens to a Firestore Query.  See {@link
      * FirestoreRecyclerOptions} for configuration options.
      *
      * @param options
      */
-    public ProveedorAdapter(@NonNull FirestoreRecyclerOptions<Proveedor> options, Activity activity, FragmentManager fm) {
+    public ProductoAdapter(@NonNull FirestoreRecyclerOptions<Producto> options, Activity activity, FragmentManager fm) {
         super(options);
         this.activity = activity;
         this.fm = fm;
     }
-
     @Override //LEYENDO DE LA BASE DE DATOS
-    protected void onBindViewHolder(@NonNull ViewHolder holder, int position, @NonNull Proveedor Provee) {
+    protected void onBindViewHolder(@NonNull ProductoAdapter.ViewHolder holder, int position, @NonNull Producto Produ) {
         DocumentSnapshot documentSnapshot = getSnapshots().getSnapshot(holder.getAbsoluteAdapterPosition());
-        final String id = documentSnapshot.getId();
+        final String id = documentSnapshot.getId(); //referencia de ID
+        DecimalFormat format = new DecimalFormat("0.00");
 
-        holder.nombre.setText(Provee.getNombre());
-        holder.cif.setText(Provee.getCif());
-        holder.correo.setText(Provee.getCorreo());
+        holder.nombre.setText(Produ.getNombre());
+        holder.precio.setText(format.format(Produ.getPrecio()));
+        holder.caducidad.setText(Produ.getCaducidad());
 
         holder.b_eliminar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                deleteProveedor(id);
+                deleteProducto(id);
             }
         });
 
@@ -60,44 +61,41 @@ public class ProveedorAdapter extends FirestoreRecyclerAdapter<Proveedor, Provee
             @Override
             public void onClick(View v) {
 
-                CrearProveedorFragment proveeFragment = new CrearProveedorFragment();
+                CrearProductoFragment produFragment = new CrearProductoFragment();
                 Bundle bundle = new Bundle();
-                bundle.putString("id_proveedor", id);
-                proveeFragment.setArguments(bundle);
-                proveeFragment.show(fm, "open fragment");
+                bundle.putString("id_producto", id);
+                produFragment.setArguments(bundle);
+                produFragment.show(fm, "open fragment");
             }
         });
     }
 
     @NonNull   //MOSTRANDO
     @Override //conectando el adaptador con el layout view single
-    public ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.view_proveedor_single, parent, false);
-        return new ViewHolder(view);
-
+    public ProductoAdapter.ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
+        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.view_producto_single, parent, false);
+        return new ProductoAdapter.ViewHolder(view);
     }
 
     public class ViewHolder extends RecyclerView.ViewHolder {
-        TextView nombre, cif, correo;
-        ImageView b_eliminar, b_editar;
+        TextView nombre, precio, caducidad;
+        ImageView b_eliminar,b_editar;
 
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
-            nombre = itemView.findViewById(R.id.name);
-            cif = itemView.findViewById(R.id.cif);
-            correo = itemView.findViewById(R.id.mail);
-            b_eliminar = itemView.findViewById(R.id.b_eli_Prov);
-            b_editar = itemView.findViewById(R.id.b_edi_Prov);
+            nombre = itemView.findViewById(R.id.nameP);
+            precio = itemView.findViewById(R.id.pri);
+            caducidad = itemView.findViewById(R.id.cad);
+            b_eliminar = itemView.findViewById(R.id.b_eli_pro);
+           b_editar = itemView.findViewById(R.id.b_edi_pro);
+
         }
     }
-
-
-    private void deleteProveedor(String id) { //BORRAR
-        miFirestore.collection("proveedores").document(id).delete().addOnSuccessListener(new OnSuccessListener<Void>() {
+    private void deleteProducto(String id) { //BORRAR
+        miFirestore.collection("productos").document(id).delete().addOnSuccessListener(new OnSuccessListener<Void>() {
             @Override
             public void onSuccess(Void unused) {
                 Toast.makeText(activity, "Eliminado correctamente", Toast.LENGTH_SHORT).show();
-
             }
         }).addOnFailureListener(new OnFailureListener() {
             @Override
@@ -106,4 +104,5 @@ public class ProveedorAdapter extends FirestoreRecyclerAdapter<Proveedor, Provee
             }
         });
     }
+
 }
